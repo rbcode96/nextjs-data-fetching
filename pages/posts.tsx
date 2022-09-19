@@ -12,8 +12,8 @@ export default function PostsPage({ posts }) {
   return (
     <div>
       {posts.map((post) => (
-        <Link href={`posts/${post.id}`}>
-          <a key={post.id}>
+        <Link key={post.id} href={`posts/${post.id}`}>
+          <a>
             <h3>{post.title}</h3>
           </a>
         </Link>
