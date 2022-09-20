@@ -8,14 +8,14 @@ export default function IndexPage() {
         <li>
           <Link href="/posts">
             <a>
-              SSR: Server-side rendering (<code>getServerSideProps</code>)
+              SSG: Static-site generation (<code>getStaticProps</code>)
             </a>
           </Link>
         </li>
         <li>
-          <Link href="/static-site-generation">
+          <Link href="/noticias">
             <a>
-              SSG: Static-site generation (<code>getStaticProps</code>)
+              SSR: Server-side rendering (<code>getServerSideProps</code>)
             </a>
           </Link>
         </li>
